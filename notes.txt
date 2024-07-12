@@ -1,0 +1,4 @@
+Ultrasonic sensor:
+- measures in cm
+- would need offset to prevent alerts going off every time
+- would need to account for people "walking"
