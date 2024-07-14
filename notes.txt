@@ -2,3 +2,9 @@ Ultrasonic sensor:
 - measures in cm
 - would need offset to prevent alerts going off every time
 - would need to account for people "walking"
+
+Arduino connections: 
+- https requests to servers dont work too well on Arduino;
+    - possible reasons:
+        - SSL certificate is required which is embedded in Arduino UNO R4, however unrealistic for ESP32-WROOM modules
+        - possible that Arduino boards have a specific limit on requests to discord webhook
